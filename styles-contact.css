@@ -1,0 +1,137 @@
+/*This is my 377 FoCo Web Page Project using Eric Meyer's reset at the top of my page -- your CSS starts on line 56 */
+
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/* ---------- This is the beginning of my 377 FoCo Web Page Project ------------ */
+
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-image: url("images/rocks-bg.jpg");
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
+	
+	
+}
+
+.center {
+    width: 800px;
+	padding: 2%;
+    margin: 100px auto;
+ 	background: rgba(102, 136, 144, 0.63); /*this uses opacity of 75% for the background color*/
+	text-align: center;
+	border: 4px none rgb(0, 0, 0);
+}
+
+   
+#logo {
+    margin-bottom: 16px;
+	border: 3px none rgb(0, 0, 0);
+	text-align: center;
+}
+
+h1 {
+	font-family: 'Monoton', cursive;
+	font-size: 2em;
+    margin: 0px auto 10px auto;
+    color: rgb(5, 5, 5);
+}
+
+h2 {
+	font-family: 'Monoton', cursive;
+	font-size: 1.5em;
+    line-height: 1.4;
+    color: rgb(0, 0, 0);
+    padding: 0px 0px;
+    margin: 0px auto 25px auto;
+}
+
+p {
+	font-family: 'Monoton', cursive;
+	font-size: 1.2em;
+    line-height: 1.6;
+    color: rgb(80, 220, 241);
+}
+    
+nav {
+	font-family: 'Monoton', cursive;
+	font: size 1.2em;
+	width: 600px;
+	margin: 0 auto;
+	border: ridge rgb(80, 220, 241);
+	border-width: 2px 0;
+	text-align: center;
+	margin-top: 2em; 
+}   
+
+nav li {
+	display: inline;
+}
+
+nav a {
+	display: inline-block;
+	padding: 10px;
+	color: rgb(80, 220, 241);
+	text-decoration: none;
+}
+
+a:hover {
+	color: black;
+	background: rgb(80, 220, 241);
+}
+
